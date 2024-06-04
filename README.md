@@ -16,6 +16,26 @@ While the introduction of garbage collection as well as "useful user features" m
 ### Assembler and Linker
 This compiler will use the GNU Binutils as (Assembler) and ld (linker). These tools are well optimized for a fast, lightweight language like Wind. 
 
+# windc Compiler v1.0 (Boot Compiler C Based)
+Features include
+- Basic Syntax and Grammar: Keywords, data types, control structures, function definitions.
+- Strict Typing System: Core data types, type checking.
+- Basic Control Structures: Conditionals, loops.
+- Functions: Definitions, calls, recursion.
+- Basic Memory Management: Simple garbage collection or memory allocation.
+- Standard I/O: File read, write (potentially execute)
+- Error Handling: Basic error detection and reporting.
+
+# windc Compiler v2.0 (Expanded Language Features)
+Features
+- Advanced Data Types and Structures: Complex types, collections.
+- Closures and Environments: First-class functions, lexical scoping.
+- Mutability and Immutability: Syntax for mutable/immutable variables, state management.
+- Type Syntax and Annotations: Advanced type annotations, generics, polymorphism.
+- Advanced Control Structures: Pattern matching, comprehensions.
+- String Manipulation and Collections: String operations, advanced collection functions.
+- Macro Text Substitution: Ability to define Macros globally in a program
+
 **(Development in Progress)**
 
 
